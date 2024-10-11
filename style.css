@@ -1,0 +1,32 @@
+:root{
+    --cor-fundo: #696969;
+    --cor-principal:#242c6e ;
+    --cor-secundaria: #3e4681;
+    --cor-destaque: hsla(189, 73%, 68%, 0.925);
+    --cor-texto: #D7F9FF;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.caixa-principal{
+    background-color: var(--cor-fundo);
+    width: 90%;
+    max-width: 600px;
+}
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.5s;
+}
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
